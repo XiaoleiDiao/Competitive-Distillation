@@ -34,16 +34,18 @@ python train_competitive_distillation.py --teacher resnet --student vit --datase
 
 
 ## 🧱 Project Structure
-  .
-  ├── train.py                         # Vanilla training
-  ├── train_mutual_learning.py        # Mutual learning training
-  ├── train_competitive_distillation.py # Competitive distillation
-  ├── train_ceit.py                   # CeiT-specific training
-  ├── demo.py                         # Example usage or visualization
-  ├── datasets/
-  │   └── dataset.py                  # Dataset loading logic
-  ├── models/
-  │   ├── resnet.py, vit.py, CeiT.py  # Model definitions
-  ├── utils.py                        # Utility functions
 
+``` 
+  .
+  ├── train.py                             # Standard training
+  ├── train_mutual_learning.py             # Mutual learning training
+  ├── train_competitive_distillation.py    # Competitive distillation
+  ├── train_ceit.py                        # CeiT-specific training
+  ├── demo.py                              # Example usage or visualization
+  ├── datasets/
+  │   └── dataset.py                       # Dataset loading logic
+  ├── models/
+  │   ├── resnet.py, vit.py, CeiT.py,...   # Model definitions
+  ├── utils.py                             # Utility functions
+``` 
 
